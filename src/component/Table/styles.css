@@ -1,0 +1,137 @@
+/* Default Styles */
+.row-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 90px 150px; 
+    margin-left: 200px;
+    padding: 30px;
+    gap: 30px;
+    font-family: var(--font-family);    
+  }
+
+  .website_container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+   /* height: 40%; */
+    margin-bottom: 20px;
+    /* width: calc(33.33% - 10px); Adjust the width calculation for three boxes with spacing */
+    max-width: 400px; /* Adjust the maximum width as needed */
+    box-sizing: border-box; /* Include padding and border in the total width */
+    color: black;
+  }
+  .image-container{
+    height: 40%;
+  }
+  .genera{
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  
+  #website_image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  .website_name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #000;
+  }
+  .website-button {
+    background: linear-gradient(#AF2655, #864774);
+    transition: all;
+  }
+.website-button:hover {
+  background-color:  #864774;
+  transition: 1s;
+}
+  
+  
+
+  /* Add these styles to your existing CSS */
+.greview{
+  margin-left: 7rem;
+  /* border: 1px solid; */
+  padding: 5px;
+  cursor: pointer;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  color: #000;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+.varient-type {
+  background-color: #9fb5ce; /* Change to your desired background color */
+  color: black;
+  padding: 5px 10px;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin: 1rem;
+}
+.buttons-container{
+  margin-top: 2rem;
+  /* position: relative; */
+  /* width: 80%; */
+}
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 1;
+}
+
+.popup p {
+  margin-bottom: 20px;
+}
+
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Adjust as needed for your design */
+
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .website_container {
+      width: 100%; /* Full width for smaller screens */
+    }
+    .varient-type{
+      margin-left: 4rem;
+    }
+    .image-container{
+      height: auto;
+    }
+    .greview{
+      margin-left: 1rem;
+      /* border: 1px solid; */
+      padding: 5px;
+      cursor: pointer;
+    }
+
+  }
+  

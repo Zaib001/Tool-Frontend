@@ -1,0 +1,55 @@
+/* SearchBar.css */
+
+.searchbar {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+margin: auto;
+color: white;
+border-radius: 10px;
+  
+}
+
+.select {
+	width: 80px;
+	height: 30px;
+	margin-left: 4px;
+	border-radius: 4px;
+	border: 1px solid var(--black);
+	outline: none;
+	cursor: pointer;
+	padding: 5px;
+    color: black;
+}
+.category-select {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 10px;
+  color: black;
+  border: 1px solid black;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4285f4;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Style the button on hover */
+button:hover {
+  background-color: #357ae8;
+}

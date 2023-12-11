@@ -1,0 +1,113 @@
+/* Base styles for all screen sizes */
+
+.gpt3__header {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background: linear-gradient(#AF2655, #864774);
+    height: 40vh;
+}
+
+.gpt3__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: 0px;
+    padding: 70px;
+}
+
+.gpt3__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    width: 70%;
+    margin-right: 50px;
+}
+
+.gpt3__header-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-text);
+    width: 80%;
+    margin-top: 1.5rem;
+}
+
+.gpt3__header-content__input2 img {
+    width: 100%;
+}
+
+.gpt3__header-image {
+    margin-top: -40px;
+    margin-left: -200px;
+}
+
+.gpt3__header-image img {
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 30px;
+}
+
+.icon {
+    margin: 15px;
+    font-size: 50px;
+}
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 1200px) {
+    .gpt3__header-content h1 {
+        font-size: 32px;
+        line-height: 50px;
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .gpt3__header-content p {
+        font-size: 18px;
+        line-height: 26px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .gpt3__header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .gpt3__header-content {
+        padding: 30px;
+    }
+
+    .gpt3__header-image {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .social-icons {
+        margin-top: 20px;
+    }
+
+    .icon {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gpt3__header-content {
+        padding: 20px;
+    }
+
+    .icon {
+        font-size: 30px;
+        margin: 10px;
+    }
+}
