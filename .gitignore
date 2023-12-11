@@ -19,7 +19,6 @@
 *.swp
 
 # Build files
-/build
 /dist
 
 # Cache and logs
